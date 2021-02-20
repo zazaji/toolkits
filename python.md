@@ -20,7 +20,7 @@ vi ~/.jupyter/jupyter_notebook_config.py
 
 ```bash
 c.NotebookApp.ip='*'
-c.NotebookApp.password = u'sha1:fd86831c7f45:ea05b2d77fa19eaec9c2eda3db5a8d8a4303c09a'
+c.NotebookApp.password = u'sha1:fd86831c7f45:ea05b2d77fa19eaec9c2eda3db5a8d8a4303c09'
 c.NotebookApp.open_browser = False
 c.NotebookApp.port =8000 #随便指定一个端口
 c.IPKernelApp.pylab = 'inline'
