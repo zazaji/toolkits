@@ -7,7 +7,7 @@ cd /etc/yum.repos.d/
 rm -f CentOS-Base.repo CentOS-AppStream.repo CentOS-PowerTools.repo CentOS-centosplus.repo CentOS-Extras.repo
 curl -o CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-8.repo
 yum makecache
-yum install -y curl
+yum install -y curl geoip
 ```
 或者
 ```bash
@@ -20,12 +20,14 @@ wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-
 yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && sh install.sh
 ```
 ## npm国内源及镜像
+```bash
 yum install -y node
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 cnpm install yarn -g
 cnpm install nodemon -g
 Cnpm i n -g
 cnpm install vue-cli -g
+```
 
 ## anaconda 清华软件站地址
 
