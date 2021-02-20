@@ -48,3 +48,7 @@ $ cat docker/ubuntu.tar | docker import - test/ubuntu:v1
 ```bash
 $ docker import http://example.com/exampleimage.tgz example/imagerepo
 ```
+## docker国内镜像
+```js
+"registry-mirrors": ["https://nyysalxp.mirror.aliyuncs.com"]
+```
