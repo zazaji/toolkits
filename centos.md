@@ -19,6 +19,13 @@ wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-
 ```bash
 yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && sh install.sh
 ```
+## npm国内源及镜像
+yum install -y node
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+cnpm install yarn -g
+cnpm install nodemon -g
+Cnpm i n -g
+cnpm install vue-cli -g
 
 ## anaconda 清华软件站地址
 
@@ -31,7 +38,6 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
 conda config --set show_channel_urls yes
-
 ```
 
 
