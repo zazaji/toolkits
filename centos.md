@@ -9,7 +9,10 @@ curl -o CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-8.repo
 yum makecache
 yum install -y curl
 ```
-
+或者
+```bash
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-8.repo
+```
 
 ## 安装bt面板
 
