@@ -47,3 +47,19 @@ jupyter notebook --allow-root --no-browser --port=8000
 
 7.图片变清晰
 `%config InlineBackend.figure_format = 'retina'`
+
+8.安装R
+也许这样一次成功
+```bash
+conda install r r-essentials 
+yum install epel-release
+yum install R
+```
+进入Rstudio，
+`install.packages(c('rzmq','repr','IRkernel','IRdisplay'), repos = c('http://irkernel.github.io/', getOption('repos')))`
+或者
+```tk
+install.packages(c('crayon', 'pbdZMQ', 'devtools'))
+devtools::install_github(paste0('IRkernel/', c('repr', 'IRdisplay', 'IRkernel')))
+IRkernel::installspec(user = FALSE)
+```
