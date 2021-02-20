@@ -34,3 +34,7 @@ curl -o finalshell_install.sh www.hostbuf.com/downloads/finalshell_install.sh;ch
 }
 ```
 
+6. 安装未知来源软件
+`sudo spctl --master-disable`
+
+
