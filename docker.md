@@ -17,6 +17,10 @@ docker run -d --name=xxx --restart always -v /media:/media --privileged --networ
 ```bash
 docker run -d -p 9000:9000 --restart=always -v /var/run/docker.sock:/var/run/docker.sock --name prtainer-test portainer/portainer
 ```
+## 虚拟多个网口，目录
+```bash
+docker run -d --name container_name -p 7474:7474 -p 7687:7687 -v /data/neo4j/data:/data -v /data/neo4j/logs:/logs -v /data/neo4j/conf:/var/lib/neo4j/conf -v /data/neo4j/import:/var/lib/neo4j/import --env NEO4J_AUTH=neo4j/password neo4j
+```
 
 ## 一个已经生成的容器挂载目录
 ```bash
