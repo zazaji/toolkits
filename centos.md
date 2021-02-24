@@ -8,6 +8,7 @@ rm -f CentOS-Base.repo CentOS-AppStream.repo CentOS-PowerTools.repo CentOS-cento
 curl -o CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-8.repo
 yum makecache
 yum install -y curl geoip
+yum install mesa-libGL.x86_64
 ```
 或者
 ```bash
