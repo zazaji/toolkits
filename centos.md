@@ -79,8 +79,8 @@ pip install   cython seaborn snownlp nltk bert word2vec ipywidgets scrapy jieba 
 pip install   pattern BeautifulSoup4 requests  backtrader seaborn pillow statsmodels keras scikit-Learn  
 pip install   bokeh pandas  pymysql autopep8  selenium  pymc3 xgboost lightgbm pymysql sqlalchemy autopep8 
 pip install   pyalgotrade pandas-datareader tensorflow redis  visualdl  superset alphalens statsmodels pyecharts 
-pip install   jupyterthemes jupyter_contrib_nbextensions catboost sympy better_exceptions  
-pip install   tornado django flask django-admin flask-admin
+pip install   jupyterthemes jupyter_contrib_nbextensions catboost sympy better_exceptions  optuna
+pip install   tornado django flask django-admin flask-admin 
 pip install git+https://www.github.com/keras-team/keras-contrib.git
 ```
 
