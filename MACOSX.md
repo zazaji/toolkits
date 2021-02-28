@@ -46,6 +46,22 @@ curl  https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py37_4.
 8.鼠须管输入法
 `brew install --cask squirrel`
 `https://dl.bintray.com/rime/squirrel/Squirrel-0.15.2.zip`
+替换特殊字符如emoji
+```bash
+/Library/Input\ Methods/Squirrel.app/Contents/MacOS/rime-install emoji
+
+/Library/Input\ Methods/Squirrel.app/Contents/MacOS/rime-install \
+emoji:customize:schema=luna_pinyin_simp
+
+/Library/Input\ Methods/Squirrel.app/Contents/MacOS/rime-install \
+emoji:customize:schema=luna_pinyin
+
+/Library/Input\ Methods/Squirrel.app/Contents/MacOS/rime-install \
+emoji:customize:schema=luna_pinyin_fluency
+```
+文件目录：`$home/Libary/rime`
+替换词库：`https://github.com/rime-aca/dictionaries`
+
 
 
 9.搜狗拼音
