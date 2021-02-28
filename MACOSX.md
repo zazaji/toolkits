@@ -6,9 +6,9 @@ xcode-select --install
 ```
 2. brew插件安装
 ```bash
-brew install ta-lib   git wget mongo php composer mysql mysql-connector-c node libomp gcc llvm boost-python scrcpy
-brew --cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package quicklookase qlvideo
-brew --cask install java8 android-platform-tools
+brew install ta-lib   git wget  php composer mysql mysql-connector-c node libomp gcc llvm boost-python scrcpy docker
+brew install --cask qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package quicklookase qlvideo
+brew install  --cask java8 android-platform-tools squirrel
 ```
 
 3. mysql安装后不能登录
@@ -46,5 +46,7 @@ curl  https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py37_4.
 8.鼠须管输入法
 `brew install --cask squirrel`
 `https://dl.bintray.com/rime/squirrel/Squirrel-0.15.2.zip`
+
+
 9.搜狗拼音
 `https://pinyin.sogou.com/mac/`
