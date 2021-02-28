@@ -1,5 +1,5 @@
 MAC OSX 重装系统后必备步骤
-1. 安装brew  
+1. 安装brew ,北外源速度最快
 ```bash
 xcode-select --install
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
@@ -37,4 +37,14 @@ curl -o finalshell_install.sh www.hostbuf.com/downloads/finalshell_install.sh;ch
 6. 安装未知来源软件
 `sudo spctl --master-disable`
 
+7. 安装conda
+```
+curl  https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py37_4.9.2-MacOSX-x86_64.sh｜bash
+```
+然后替换pip，conda国内源
 
+8.鼠须管输入法
+`brew install --cask squirrel`
+`https://dl.bintray.com/rime/squirrel/Squirrel-0.15.2.zip`
+9.搜狗拼音
+`https://pinyin.sogou.com/mac/`
