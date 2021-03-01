@@ -50,14 +50,11 @@ curl  https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py37_4.
 ```bash
 /Library/Input\ Methods/Squirrel.app/Contents/MacOS/rime-install emoji
 
-/Library/Input\ Methods/Squirrel.app/Contents/MacOS/rime-install \
-emoji:customize:schema=luna_pinyin_simp
+/Library/Input\ Methods/Squirrel.app/Contents/MacOS/rime-install emoji:customize:schema=luna_pinyin_simp
 
-/Library/Input\ Methods/Squirrel.app/Contents/MacOS/rime-install \
-emoji:customize:schema=luna_pinyin
+/Library/Input\ Methods/Squirrel.app/Contents/MacOS/rime-install emoji:customize:schema=luna_pinyin
 
-/Library/Input\ Methods/Squirrel.app/Contents/MacOS/rime-install \
-emoji:customize:schema=luna_pinyin_fluency
+/Library/Input\ Methods/Squirrel.app/Contents/MacOS/rime-install emoji:customize:schema=luna_pinyin_fluency
 ```
 文件目录：`$home/Libary/rime`
 替换词库：`https://github.com/rime-aca/dictionaries`
