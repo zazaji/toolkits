@@ -30,58 +30,6 @@ Cnpm i n -g
 cnpm install vue-cli -g
 ```
 
-## anaconda 清华软件站地址
-
-`https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/`
-
-## conda 国内镜像
-```bash
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge 
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
-conda config --set show_channel_urls yes
-```
-
-
-##pip 国内源
-```bash
-mkdir ~/.pip/
-touch ~/.pip/pip.conf
-vi ~/.pip/pip.conf
-```
-写入
-```bash
-[global]
-index-url = http://pypi.douban.com/simple
-[install]
-trusted-host=pypi.douban.com
-```
-或者
-```bash
-[global]
-index-url = http://mirrors.aliyun.com/pypi/simple
-[install]
-trusted-host=mirrors.aliyun.com
-```
-
-## conda 安装模块
-```bash
-conda update --all keras  pandas numpy scipy  requests  theano  scikit-learn bcolz mysqlclient clang llvm line_profiler  
-```
-
-## pip 模块
-
-```bash
-pip install paddlepaddle stable_baselines snapshot-phantomjs pyecharts torch
-pip install 	gym Ta-lib ta tflearn joypy  pywaffle  squarify calmap  bs4 urllib3 backtrader 
-pip install   cython seaborn snownlp nltk bert word2vec ipywidgets scrapy jieba tushare baostock openpyxl 
-pip install   pattern BeautifulSoup4 requests  backtrader seaborn pillow statsmodels keras scikit-Learn  
-pip install   bokeh pandas  pymysql autopep8  selenium  pymc3 xgboost lightgbm pymysql sqlalchemy autopep8 
-pip install   pyalgotrade pandas-datareader tensorflow redis  visualdl  superset alphalens statsmodels pyecharts 
-pip install   jupyterthemes jupyter_contrib_nbextensions catboost sympy better_exceptions  optuna
-pip install   tornado django flask django-admin flask-admin 
-pip install git+https://www.github.com/keras-team/keras-contrib.git
 ```
 
 ## talib 安装
